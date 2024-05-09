@@ -1,0 +1,43 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+bin/
+obj/
+dist/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Go build outputs
+url-to-qrcode
+*.exe # In case you compile for Windows
+
+# Dependency directories (remove these lines if you prefer to keep your vendor/ directory)
+vendor/
+Godeps/
+
+# Output files (like your QR code image)
+qr.png
+
+# Editor settings and backup files
+*.swp
+*~
+.DS_Store
+
+# IDE specific files and directories
+.vscode/
+.idea/
+
+# Local configuration files
+*.env
+*.local
+
+# Log files
+*.log
+
+# Optional: Include the go.sum file if you're using modules
+go.sum
