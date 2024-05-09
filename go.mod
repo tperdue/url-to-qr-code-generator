@@ -1,4 +1,4 @@
-module github.com/tperdue/qr-code-generator
+module github.com/tperdue/url-to-qr-code-generator
 
 go 1.22.3
 
